@@ -8,7 +8,7 @@ function var = Coef(n)
     for j = 1:1:k
         I = X(j,1);
         J = X(j,2);
-    
+
         u(j) = (I == J) & (j < k);
     end
 
